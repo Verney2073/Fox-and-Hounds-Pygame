@@ -598,14 +598,7 @@ while run:
 					fox_turn = True
 					hound_turn = False
 
-			
-				
-
-
-
-	
 	pygame.display.update() #this is ESSENTIAL or pygame functions will run and then close
-
 
 pygame.quit()
 sys.exit() # rather than put this within the 'if run = True' statement, drumkit tutorial creates a new variable run and uses turning that to false to exit the game loop
